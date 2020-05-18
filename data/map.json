@@ -1,0 +1,554 @@
+{
+  "streets": [
+    {
+      "id": "Vajanskeho",
+      "coordinates": [
+        [
+          100.0,
+          100.0
+        ],
+        [
+          300.0,
+          100.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Vajanskeho 50",
+          "coordinates": [
+            200.0,
+            100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Nabrezna 1",
+      "coordinates": [
+        [
+          300.0,
+          100.0
+        ],
+        [
+          700.0,
+          100.0
+        ]
+      ],
+      "stops": [
+
+      ]
+    },
+    {
+      "id": "Nabrezna 2",
+      "coordinates": [
+        [
+          700.0,
+          100.0
+        ],
+        [
+          1200.0,
+          100.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Nabrezna 22",
+          "coordinates": [
+            800.0,
+            100.0
+          ]
+        },
+        {
+          "id": "Nabrezna 28",
+          "coordinates": [
+            1000.0,
+            100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Nitrianska 1",
+      "coordinates": [
+        [
+          1200.0,
+          100.0
+        ],
+        [
+          1200.0,
+          300.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Nitrianska 13",
+          "coordinates": [
+            1200.0,
+            175.0
+          ]
+        },
+        {
+          "id": "Nitrianska 18",
+          "coordinates": [
+            1200.0,
+            250.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Nitrianska 2",
+      "coordinates": [
+        [
+          1200.0,
+          300.0
+        ],
+        [
+          1600.0,
+          300.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Nitrianska 21",
+          "coordinates": [
+            1300.0,
+            300.0
+          ]
+        },
+        {
+          "id": "Nitrianska 23",
+          "coordinates": [
+            1400.0,
+            300.0
+          ]
+        },
+        {
+          "id": "Nitrianska 25",
+          "coordinates": [
+            1500.0,
+            300.0
+          ]
+        },
+        {
+          "id": "Nitrianska 29",
+          "coordinates": [
+            1590.0,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Hlavna 1",
+      "coordinates": [
+        [
+          1600.0,
+          300.0
+        ],
+        [
+          1600.0,
+          600.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Hlavna 15",
+          "coordinates": [
+            1600.0,
+            400.0
+          ]
+        },
+        {
+          "id": "Hlavna 1032",
+          "coordinates": [
+            1600.0,
+            500.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Hlavna 2",
+      "coordinates": [
+        [
+          1600.0,
+          600.0
+        ],
+        [
+          1600.0,
+          1500.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Hlavna 2000",
+          "coordinates": [
+            1600.0,
+            1100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Stredna",
+      "coordinates": [
+        [
+          1600.0,
+          1500.0
+        ],
+        [
+          700.0,
+          1500.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Zabudnuta 22",
+          "coordinates": [
+            1100.0,
+            1500.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Hlavna 3",
+      "coordinates": [
+        [
+          700.0,
+          1500.0
+        ],
+        [
+          700.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Hlavna 33",
+          "coordinates": [
+            700.0,
+            1000.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Hlavna 4",
+      "coordinates": [
+        [
+          700.0,
+          900.0
+        ],
+        [
+          700.0,
+          300.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Hlavna 44",
+          "coordinates": [
+            700.0,
+            700.0
+          ]
+        },
+        {
+          "id": "Hlavna 45",
+          "coordinates": [
+            700.0,
+            500.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ovocna",
+      "coordinates": [
+        [
+          1600.0,
+          600.0
+        ],
+        [
+          1200.0,
+          600.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Pri Velkej Lipe",
+          "coordinates": [
+            1500.0,
+            600.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Svieza",
+      "coordinates": [
+        [
+          1200.0,
+          600.0
+        ],
+        [
+          1200.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Pri Fontane",
+          "coordinates": [
+            1200.0,
+            750.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Zeleninova",
+      "coordinates": [
+        [
+          1200.0,
+          900.0
+        ],
+        [
+          700.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Pri Zelenej Paprike",
+          "coordinates": [
+            900.0,
+            900.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Paulovska 1",
+      "coordinates": [
+        [
+          300.0,
+          300.0
+        ],
+        [
+          700.0,
+          300.0
+        ]
+      ],
+      "stops": [
+
+      ]
+    },
+    {
+      "id": "Paulovska 2",
+      "coordinates": [
+        [
+          700.0,
+          300.0
+        ],
+        [
+          1200.0,
+          300.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Namestie slobody",
+          "coordinates": [
+            800.0,
+            300.0
+          ]
+        },
+        {
+          "id": "Paulovska 29",
+          "coordinates": [
+            1100.0,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Dlha",
+      "coordinates": [
+        [
+          300.0,
+          100.0
+        ],
+        [
+          300.0,
+          300.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Dlhocizna 1",
+          "coordinates": [
+            300.0,
+            150.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Dlha 10",
+      "coordinates": [
+        [
+          300.0,
+          300.0
+        ],
+        [
+          300.0,
+          600.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Dlhocizna 10",
+          "coordinates": [
+            300.0,
+            450.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Dlha 20",
+      "coordinates": [
+        [
+          300.0,
+          600.0
+        ],
+        [
+          300.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Dlhocizna 20",
+          "coordinates": [
+            300.0,
+            750.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Zapadna 1",
+      "coordinates": [
+        [
+          100.0,
+          100.0
+        ],
+        [
+          100.0,
+          600.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Zapad I",
+          "coordinates": [
+            100.0,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Zapadna 2",
+      "coordinates": [
+        [
+          100.0,
+          600.0
+        ],
+        [
+          100.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Zapad II",
+          "coordinates": [
+            100.0,
+            750.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Juzna",
+      "coordinates": [
+        [
+          100.0,
+          900.0
+        ],
+        [
+          300.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Juh I",
+          "coordinates": [
+            150.0,
+            900.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Rusna",
+      "coordinates": [
+        [
+          300.0,
+          900.0
+        ],
+        [
+          700.0,
+          900.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Juh II",
+          "coordinates": [
+            500.0,
+            900.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Studentska",
+      "coordinates": [
+        [
+          100.0,
+          600.0
+        ],
+        [
+          300.0,
+          600.0
+        ]
+      ],
+      "stops": [
+        {
+          "id": "Nejaka Univerzita",
+          "coordinates": [
+            150.0,
+            600.0
+          ]
+        }
+      ]
+    }
+  ]
+}

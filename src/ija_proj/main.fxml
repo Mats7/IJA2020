@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane fx:id="gridPane" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ija_proj.Controller">
+    <children>
+        <GridPane GridPane.columnIndex="1">
+            <columnConstraints>
+                <ColumnConstraints halignment="CENTER" percentWidth="100" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30" minHeight="30" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="30" prefHeight="30.0" valignment="TOP" vgrow="SOMETIMES" />
+                <RowConstraints valignment="TOP" vgrow="ALWAYS" />
+            </rowConstraints>
+            <children>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" percentWidth="33" />
+                        <ColumnConstraints halignment="CENTER" percentWidth="33" />
+                        <ColumnConstraints halignment="RIGHT" percentWidth="33" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                    </rowConstraints>
+                </GridPane>
+                <Slider fx:id="zoomSlider" majorTickUnit="1.0" max="7.0" min="0.1" minorTickCount="10" showTickLabels="true" showTickMarks="true" value="1.0" GridPane.rowIndex="2" />
+                <Label fx:id="currentTimeLabel" style="-fx-font-weight: bold; -fx-font-size: 15;" text="00:00:00" visible="false" GridPane.rowIndex="4" />
+
+                <Button fx:id="startSimulationButton" mnemonicParsing="false" onMouseClicked="#startMove" text="Start" />
+                <TextField fx:id="simulationTimeTextField" alignment="CENTER" text="12:00" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                <Label text="Time" GridPane.rowIndex="3" />
+                <Label text="Speed" GridPane.rowIndex="5" />
+                <Label text="Update Speed" GridPane.rowIndex="7" />
+                <Slider fx:id="simulationSpeedSlider" majorTickUnit="1.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" value="1.0" GridPane.rowIndex="6" />
+                <Slider fx:id="refreshIntervalSlider" majorTickUnit="10.0" max="60.0" min="1.0" minorTickCount="2" showTickLabels="true" showTickMarks="true" value="1.0" GridPane.rowIndex="8" />
+                <VBox alignment="TOP_CENTER" GridPane.rowIndex="9">
+                    <children>
+                        <Label fx:id="selectedTripLabel" style="-fx-font-weight: bold; -fx-font-size: 15;" />
+                        <Label style="-fx-font-weight: bold; -fx-font-size: 15;" text="Info o vybranom spoji" />
+                        <TableView fx:id="selectedTripTableView">
+                        </TableView>
+                    </children>
+                </VBox>
+                 <Label fx:id="zoomLabel" text="Zoom" GridPane.rowIndex="1" />
+            </children>
+        </GridPane>
+        <ScrollPane fx:id="scrollPane" pannable="true" prefHeight="200.0" prefWidth="200.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+            </content>
+        </ScrollPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="75" />
+        <ColumnConstraints percentWidth="25" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="100" valignment="TOP" />
+    </rowConstraints>
+</GridPane>

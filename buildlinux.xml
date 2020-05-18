@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ija_proj" default="all" basedir=".">
+
+  <target name="compile">
+
+    <mkdir dir="build"/>
+    <javac srcdir="src" destdir="build">
+      <classpath>
+        <pathelement path="lib/json-simple-1.1.1.jar"/>
+      </classpath>
+    </javac>
+    <mkdir dir="dest"/>
+    <mkdir dir="dest/data"/>
+    <copy todir="dest/data">
+      <fileset dir="data"/>
+    </copy>
+
+    <jar destfile="dest/ija-app.jar">
+      <fileset dir="build"/>
+      <fileset dir="src" includes="app/fxml/*.fxml"/>
+      <zipgroupfileset dir="lib" includes="**/*.jar" />
+      <manifest>
+        <attribute name="Main-Class" value="app.Main"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="run" depends="compile" description="run app">
+    <java jar="dest/ija-app.jar" fork="true"/>
+  </target>
+
+  <target name="all" depends="run">
+  </target>
+
+  <target name="clean">
+    <delete includeemptydirs="true">
+      <fileset dir="build" includes="**/*"/>
+    </delete>
+    <delete includeemptydirs="true">
+      <fileset dir="dest" includes="**/*"/>
+    </delete>
+  </target>
+
+</project>

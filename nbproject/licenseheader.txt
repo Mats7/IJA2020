@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Authors: 
+${licensePrefix}Matej Cimmerman (xcimme00)
+${licensePrefix}Daniel Pauloviè (xpaulo04)
+<#if licenseLast??>
+${licenseLast}
+</#if>
